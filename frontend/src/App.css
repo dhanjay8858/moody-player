@@ -1,0 +1,44 @@
+
+
+.app-header {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 0 1.5rem;
+  border-bottom: 1px solid #eceaf3;
+  background: #f7f5fa;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-logo {
+  width: 16px;
+  height: 16px;
+ 
+  border-radius: 2px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.app-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #23212a;
+}
+
+
+
+.content-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.main-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #23212a;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 0;
+}
