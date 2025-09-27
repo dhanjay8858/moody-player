@@ -63,7 +63,7 @@ router.get("/song", async (req, res) => {
     // Create formatted songs to ensure full URLs
     const formattedSongs = songs.map(song => {
       const fullAudioUrl = song.audio;
-      console.log("Full audio URL:", fullAudioUrl);
+      console.log("Full audio URL Is:", fullAudioUrl);
       
       // Check if audio URL exists
       if (!fullAudioUrl) {
